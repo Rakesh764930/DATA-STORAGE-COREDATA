@@ -10,9 +10,12 @@
 		9B14B49623D13F670005B683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14B49523D13F670005B683 /* AppDelegate.swift */; };
 		9B14B49823D13F670005B683 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14B49723D13F670005B683 /* SceneDelegate.swift */; };
 		9B14B49A23D13F670005B683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14B49923D13F670005B683 /* ViewController.swift */; };
-		9B14B49D23D13F670005B683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B14B49B23D13F670005B683 /* Main.storyboard */; };
 		9B14B49F23D13F680005B683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B14B49E23D13F680005B683 /* Assets.xcassets */; };
 		9B14B4A223D13F680005B683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B14B4A023D13F680005B683 /* LaunchScreen.storyboard */; };
+		9B14B4AA23D13FB50005B683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B14B4A923D13FB50005B683 /* Main.storyboard */; };
+		9B14B4AC23D13FE60005B683 /* BookTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14B4AB23D13FE60005B683 /* BookTableVC.swift */; };
+		9B14B4B023D140150005B683 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14B4AF23D140150005B683 /* Book.swift */; };
+		9B14B4B323D140410005B683 /* BookModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B14B4B123D140410005B683 /* BookModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		9B14B49523D13F670005B683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B14B49723D13F670005B683 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B14B49923D13F670005B683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B14B49C23D13F670005B683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B14B49E23D13F680005B683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B14B4A123D13F680005B683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B14B4A323D13F680005B683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B14B4A923D13FB50005B683 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9B14B4AB23D13FE60005B683 /* BookTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableVC.swift; sourceTree = "<group>"; };
+		9B14B4AF23D140150005B683 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9B14B4B223D140410005B683 /* BookModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		9B14B48923D13F670005B683 = {
 			isa = PBXGroup;
 			children = (
+				9B14B4B123D140410005B683 /* BookModel.xcdatamodeld */,
 				9B14B49423D13F670005B683 /* CoreDataApplication */,
 				9B14B49323D13F670005B683 /* Products */,
 			);
@@ -59,8 +66,10 @@
 				9B14B49523D13F670005B683 /* AppDelegate.swift */,
 				9B14B49723D13F670005B683 /* SceneDelegate.swift */,
 				9B14B49923D13F670005B683 /* ViewController.swift */,
-				9B14B49B23D13F670005B683 /* Main.storyboard */,
+				9B14B4AF23D140150005B683 /* Book.swift */,
+				9B14B4AB23D13FE60005B683 /* BookTableVC.swift */,
 				9B14B49E23D13F680005B683 /* Assets.xcassets */,
+				9B14B4A923D13FB50005B683 /* Main.storyboard */,
 				9B14B4A023D13F680005B683 /* LaunchScreen.storyboard */,
 				9B14B4A323D13F680005B683 /* Info.plist */,
 			);
@@ -125,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B14B4AA23D13FB50005B683 /* Main.storyboard in Resources */,
 				9B14B4A223D13F680005B683 /* LaunchScreen.storyboard in Resources */,
 				9B14B49F23D13F680005B683 /* Assets.xcassets in Resources */,
-				9B14B49D23D13F670005B683 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B14B4AC23D13FE60005B683 /* BookTableVC.swift in Sources */,
 				9B14B49A23D13F670005B683 /* ViewController.swift in Sources */,
 				9B14B49623D13F670005B683 /* AppDelegate.swift in Sources */,
+				9B14B4B023D140150005B683 /* Book.swift in Sources */,
+				9B14B4B323D140410005B683 /* BookModel.xcdatamodeld in Sources */,
 				9B14B49823D13F670005B683 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B14B49B23D13F670005B683 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B14B49C23D13F670005B683 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9B14B4A023D13F680005B683 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,6 +340,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B14B4B123D140410005B683 /* BookModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B14B4B223D140410005B683 /* BookModel.xcdatamodel */,
+			);
+			currentVersion = 9B14B4B223D140410005B683 /* BookModel.xcdatamodel */;
+			path = BookModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B14B48A23D13F670005B683 /* Project object */;
 }
