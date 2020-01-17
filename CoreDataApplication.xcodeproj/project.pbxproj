@@ -46,7 +46,6 @@
 		9B14B48923D13F670005B683 = {
 			isa = PBXGroup;
 			children = (
-				9B14B4B123D140410005B683 /* BookModel.xcdatamodeld */,
 				9B14B49423D13F670005B683 /* CoreDataApplication */,
 				9B14B49323D13F670005B683 /* Products */,
 			);
@@ -63,17 +62,34 @@
 		9B14B49423D13F670005B683 /* CoreDataApplication */ = {
 			isa = PBXGroup;
 			children = (
+				9B14B4B523D1415E0005B683 /* View Controllers */,
+				9B14B4B423D141430005B683 /* Models */,
 				9B14B49523D13F670005B683 /* AppDelegate.swift */,
 				9B14B49723D13F670005B683 /* SceneDelegate.swift */,
-				9B14B49923D13F670005B683 /* ViewController.swift */,
-				9B14B4AF23D140150005B683 /* Book.swift */,
-				9B14B4AB23D13FE60005B683 /* BookTableVC.swift */,
 				9B14B49E23D13F680005B683 /* Assets.xcassets */,
 				9B14B4A923D13FB50005B683 /* Main.storyboard */,
 				9B14B4A023D13F680005B683 /* LaunchScreen.storyboard */,
 				9B14B4A323D13F680005B683 /* Info.plist */,
 			);
 			path = CoreDataApplication;
+			sourceTree = "<group>";
+		};
+		9B14B4B423D141430005B683 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B14B4AF23D140150005B683 /* Book.swift */,
+				9B14B4B123D140410005B683 /* BookModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B14B4B523D1415E0005B683 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B14B49923D13F670005B683 /* ViewController.swift */,
+				9B14B4AB23D13FE60005B683 /* BookTableVC.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

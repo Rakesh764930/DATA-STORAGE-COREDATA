@@ -1,10 +1,11 @@
 //
-//  Book.swift
-//  Data Application
+//  AppDelegate.swift
+//  CoreDataApplication
 //
-//  Created by Mohammad Kiani on 2020-01-16.
-//  Copyright © 2020 mohammadkiani. All rights reserved.
+//  Created by MacStudent on 2020-01-16.
+//  Copyright © 2020 MacStudent. All rights reserved.
 //
+
 
 import Foundation
 
